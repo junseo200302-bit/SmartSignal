@@ -62,6 +62,10 @@ SmartSignal
 
 https://smartsignal-teynb22yuz6wpqsqp3cym8.streamlit.app/
 
+## Demo Video
+
+https://www.youtube.com/watch?v=AZ7Uc7IFcnU&feature=youtu.be
+
 ---
 
 ## Project Purpose
