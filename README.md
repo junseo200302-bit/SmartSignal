@@ -1,49 +1,45 @@
 # 🚦 SmartSignal
 
-Adaptive Traffic Signal Optimization System built with Streamlit.
+## Overview
 
-## Project Overview
+SmartSignal is a traffic signal optimization project developed for the ICT Application Technology course.
 
-SmartSignal is an intelligent traffic signal optimization system that dynamically adjusts green-light duration according to real-time traffic demand.
+Many traffic lights still use fixed signal timing even though traffic conditions change throughout the day. Because of this, some roads receive more green time than necessary while congested roads continue to experience long waiting times.
 
-Unlike traditional fixed-time traffic lights, SmartSignal allocates signal timing based on:
+To address this issue, I developed SmartSignal, a Streamlit-based traffic signal optimization system. The system adjusts signal timing according to traffic demand and provides priority handling for emergency vehicles.
 
-* Vehicle volume
-* Pedestrian demand
-* Emergency vehicle priority
-
-The system simulates a four-way intersection and continuously recalculates signal timing to improve traffic flow and reduce waiting time.
+The application simulates a four-way intersection and visualizes how traffic conditions change over multiple signal cycles.
 
 ---
 
-## Key Features
+## Main Features
 
-* Dynamic signal timing optimization
+* Adaptive signal timing based on traffic demand
 * Emergency vehicle priority handling
-* Traffic simulation visualization
-* Throughput and waiting-time analysis
+* Traffic flow simulation
+* Waiting time comparison
+* Throughput analysis
 * Interactive Streamlit dashboard
-* Multiple traffic scenarios
 
 ---
 
-## System Logic
+## How It Works
 
-1. Collect traffic demand from all directions.
-2. Calculate weighted demand scores.
-3. Allocate green-light duration proportionally.
+1. Collect traffic demand from four directions.
+2. Calculate a weighted demand score.
+3. Allocate green-light duration dynamically.
 4. Process vehicle movement during the signal cycle.
 5. Carry remaining vehicles into the next cycle.
-6. Recalculate timing when new traffic arrives.
+6. Recalculate signal timing when new traffic arrives.
 
 ---
 
-## Technology Stack
+## Technologies Used
 
 * Python
 * Streamlit
 * Pandas
-* HTML / CSS / JavaScript (embedded simulation)
+* HTML/CSS/JavaScript
 
 ---
 
@@ -56,23 +52,29 @@ SmartSignal
 ├── data/
 │   └── sample_traffic_data.csv
 ├── README.md
-├── 문제 해결.md
+├── 문제해결.md
 └── requirements.txt
 ```
 
-## Video Demonstration
+---
 
-Add your video link here.
+## Live Demo
 
-Example:
+https://smartsignal-teynb22yuz6wpqsqp3cym8.streamlit.app/
 
-https://youtube.com/your-video-link
+---
+
+## Project Purpose
+
+The goal of this project is to demonstrate how adaptive signal control can improve traffic efficiency compared to traditional fixed-time traffic systems.
+
+By dynamically adjusting signal timing and prioritizing emergency vehicles, the system can reduce waiting time and improve traffic flow in a simulated environment.
 
 ---
 
 ## Future Improvements
 
-* Real camera integration
+* Real traffic camera integration
 * Computer vision vehicle detection
 * AI-based traffic prediction
 * Multi-intersection coordination
