@@ -1,0 +1,5 @@
+direction,cars,emergency,pedestrians
+South-North,10,0,3
+North-South,40,0,5
+East-West,20,0,2
+West-East,30,0,4
